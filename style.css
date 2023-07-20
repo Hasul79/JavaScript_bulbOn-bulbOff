@@ -1,0 +1,39 @@
+p{
+    color:red;
+    font-size: 50px;
+    letter-spacing: 3px;
+ }
+ button{
+    width: 150px;
+    padding:20px;
+    background-color: rgb(241, 115, 92);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+   
+ }
+ .btn{
+    width: 150px;
+    padding:20px;
+    background-color: rgb(218, 134, 213);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    border:4px solid black;
+ }
+ h2{
+    font-size: 50px;
+    color: red; 
+    text-shadow: 5px 5px 10px black;
+
+ }
+ #demo{
+    color: blue;
+    text-shadow: 1px 1px 10px black,
+                 1px 1px 30px blueviolet;
+ }
+
+ #text{
+    color:#f0f;
+    text-shadow: rgb(19, 14, 14) 2px -2px;
+ }

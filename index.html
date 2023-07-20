@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>BulbOn & BulbOff</title>
+</head>
+<body>
+    <p id='demo'>HTML text</p> 
+
+    <hr>
+    
+    <p id='text'>HTML text</p> 
+   <button class="btn" onclick="document.getElementById('text').innerHTML='JavaScript' ">Click me</button> 
+
+  <!--  Js  ընդունում է և  " "   և  ' '   -->
+  <hr>
+
+
+   <!-- կարող ենք փոխել HTML  img  թեգի  src ատրիբուտը -->
+
+<h2 >Վառեմ-մարեմ</h2>
+
+     <button onclick="document.getElementById('bulb').src='https://www.dropbox.com/s/6ssht2wygsmlqz2/pic_bulbon.gif?dl=1' ">Միացնել</button>
+
+<img id="bulb" src="https://www.dropbox.com/s/kw5btwcqwdql9sm/pic_bulboff.gif?dl=1" style="width:200px">
+
+     <button onclick="document.getElementById('bulb').src='https://www.dropbox.com/s/kw5btwcqwdql9sm/pic_bulboff.gif?dl=1' ">Անջատել</button>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
